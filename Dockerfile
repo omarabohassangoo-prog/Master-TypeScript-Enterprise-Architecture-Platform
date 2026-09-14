@@ -9,7 +9,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
 
 # Copy source code
 COPY . .
@@ -27,7 +27,7 @@ ENV PORT=3000
 
 # Copy descriptors and production node_modules
 COPY package*.json ./
-RUN npm ci --only=production
+RUN if [ -f package-lock.json ]; then npm ci --only=production; else npm install --only=production; fi
 
 # Copy built production artifacts from builder stage
 COPY --from=builder /app/dist ./dist
