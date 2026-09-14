@@ -82,12 +82,21 @@ npm run dev
 
 تتضمن المنظومة 14 وثيقة ومخطط تفاعلي متوفرة في المجلد `/docs`:
 
-- **[وثيقة المستثمرين والنظرة الاستراتيجية (Investor Pitch Deck)](docs/INVESTOR-PITCH-DECK.md)**
+- **[وثيقة المستثمرين وتوقعات الأرباح بالدولار والمشاريع المستهدفة (Investor Pitch Deck & Financials)](docs/INVESTOR-PITCH-DECK.md)**
+- **[وثيقة الترخيص وحقوق النشر (Copyright & License Document)](docs/COPYRIGHT-AND-LICENSE.md)**
+- **[وثيقة الشروط والقوانين والامتثال التنظيمي (Legal Compliance, Terms, & Regulations)](docs/LEGAL-COMPLIANCE-RULES.md)**
 - **[دليل النشر عبر GitHub](docs/deployment/GITHUB-DEPLOYMENT-GUIDE.md)**
 - **[مواصفات النشر الإجمالية](docs/deployment/DEPLOYMENT-SPECIFICATION.md)**
 - **[مواصفات إعدادات النظام والمستخدم](docs/architecture/System-User-Settings-Specification.md)**
 - **[معايير دمج المزودين والـ SDKs](docs/backend/SDK-Integration-And-Testing-Specification.md)**
 - **[معايير قاعدة البيانات PostgreSQL](docs/database/PostgreSQL-SDK-Integration-Specification.md)**
+
+---
+
+## ✉️ للتواصل والاستفسارات الاستثمارية (Investor Contact)
+
+- **المطور الرئيسي والمالك للمنظومة**: عمر أبو حسان (Omar Abu Hassan)
+- **البريد الإلكتروني المباشر**: **[omarabohassangoo@gmail.com](mailto:omarabohassangoo@gmail.com)**
 
 ---
 
