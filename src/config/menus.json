@@ -1,0 +1,28 @@
+{
+  "adminMenu": [
+    { "id": "admin-dash", "label": "Overview", "labelAr": "نظرة عامة", "icon": "LayoutDashboard", "route": "admin_overview" },
+    { "id": "admin-users", "label": "Users", "labelAr": "المستخدمين", "icon": "Users", "route": "admin_users" },
+    { "id": "admin-rbac", "label": "Roles & RBAC", "labelAr": "الأدوار والصلاحيات", "icon": "ShieldCheck", "route": "admin_rbac" },
+    { "id": "admin-settings", "label": "Settings", "labelAr": "الإعدادات", "icon": "Sliders", "route": "admin_settings" },
+    { "id": "admin-files", "label": "Storage Files", "labelAr": "الملفات والتخزين", "icon": "FolderLock", "route": "admin_files" },
+    { "id": "admin-comm", "label": "Communications", "labelAr": "المراسلات (Email/SMS/WA)", "icon": "Send", "route": "admin_comm" },
+    { "id": "admin-paypal", "label": "PayPal Payments", "labelAr": "المدفوعات وباي بال", "icon": "CreditCard", "route": "admin_paypal" },
+    { "id": "admin-audit", "label": "Security Audit", "labelAr": "سجلات التدقيق", "icon": "History", "route": "admin_audit" }
+  ],
+  "devMenu": [
+    { "id": "dev-dash", "label": "Dev Console", "labelAr": "لوحة التطوير", "icon": "Terminal", "route": "dev_overview" },
+    { "id": "dev-kanban", "label": "Projects & Tasks", "labelAr": "المشاريع والمهام", "icon": "Kanban", "route": "dev_kanban" },
+    { "id": "dev-issues", "label": "Bug Tracker", "labelAr": "تتبع المشاكل", "icon": "Bug", "route": "dev_issues" },
+    { "id": "dev-api", "label": "API Docs & Playground", "labelAr": "توثيق واختبار API", "icon": "Code2", "route": "dev_api" },
+    { "id": "dev-db", "label": "Database Workbench", "labelAr": "مستكشف البيانات", "icon": "Database", "route": "dev_db" },
+    { "id": "dev-validator", "label": "Consistency Engine", "labelAr": "فحص اتساق المعمارية", "icon": "CheckCheck", "route": "dev_validator" }
+  ],
+  "userMenu": [
+    { "id": "user-dash", "label": "Dashboard", "labelAr": "لوحة التحكم", "icon": "Home", "route": "user_overview" },
+    { "id": "user-profile", "label": "My Profile", "labelAr": "الملف الشخصي", "icon": "User", "route": "user_profile" },
+    { "id": "user-notifs", "label": "Notifications", "labelAr": "الإشعارات", "icon": "Bell", "route": "user_notifs" },
+    { "id": "user-docs", "label": "Documents Vault", "labelAr": "مستنداتي", "icon": "FileText", "route": "user_docs" },
+    { "id": "user-sessions", "label": "Sessions & Devices", "labelAr": "الجلسات والأجهزة", "icon": "Laptop", "route": "user_sessions" },
+    { "id": "user-security", "label": "Security Settings", "labelAr": "الأمان وكلمة المرور", "icon": "KeyRound", "route": "user_security" }
+  ]
+}

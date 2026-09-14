@@ -1,0 +1,28 @@
+{
+  "permissions": [
+    { "key": "users.create", "resource": "users", "action": "create", "displayName": "Create Users", "category": "identity" },
+    { "key": "users.read", "resource": "users", "action": "read", "displayName": "View Users", "category": "identity" },
+    { "key": "users.update", "resource": "users", "action": "update", "displayName": "Update Users", "category": "identity" },
+    { "key": "users.delete", "resource": "users", "action": "delete", "displayName": "Delete Users", "category": "identity" },
+
+    { "key": "roles.create", "resource": "roles", "action": "create", "displayName": "Create Roles", "category": "identity" },
+    { "key": "roles.read", "resource": "roles", "action": "read", "displayName": "View Roles", "category": "identity" },
+    { "key": "roles.update", "resource": "roles", "action": "update", "displayName": "Update Roles", "category": "identity" },
+    { "key": "roles.delete", "resource": "roles", "action": "delete", "displayName": "Delete Roles", "category": "identity" },
+
+    { "key": "settings.read", "resource": "settings", "action": "read", "displayName": "View Settings", "category": "system" },
+    { "key": "settings.update", "resource": "settings", "action": "update", "displayName": "Update Settings", "category": "system" },
+
+    { "key": "files.upload", "resource": "files", "action": "create", "displayName": "Upload Files", "category": "storage" },
+    { "key": "files.read", "resource": "files", "action": "read", "displayName": "View Files", "category": "storage" },
+    { "key": "files.delete", "resource": "files", "action": "delete", "displayName": "Delete Files", "category": "storage" },
+
+    { "key": "communication.send", "resource": "communication", "action": "execute", "displayName": "Send Email/SMS/WA", "category": "system" },
+    { "key": "finance.read", "resource": "finance", "action": "read", "displayName": "View PayPal Transactions", "category": "finance" },
+    { "key": "finance.manage", "resource": "finance", "action": "update", "displayName": "Manage PayPal System Settings", "category": "finance" },
+
+    { "key": "audit.read", "resource": "audit", "action": "read", "displayName": "View Audit Logs", "category": "system" },
+    { "key": "admin.access", "resource": "admin", "action": "admin", "displayName": "Access Admin Dashboard", "category": "system" },
+    { "key": "dev.access", "resource": "dev", "action": "admin", "displayName": "Access Developer Console", "category": "developer" }
+  ]
+}

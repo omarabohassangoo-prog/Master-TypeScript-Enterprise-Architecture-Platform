@@ -1,0 +1,36 @@
+{
+  "publicRoutes": [
+    { "path": "/", "name": "Blueprint", "nameAr": "المخطط المعماري العام" },
+    { "path": "/login", "name": "Login", "nameAr": "تسجيل الدخول" },
+    { "path": "/register", "name": "Register", "nameAr": "إنشاء حساب" },
+    { "path": "/forgot-password", "name": "Forgot Password", "nameAr": "استعادة كلمة المرور" }
+  ],
+  "protectedRoutes": {
+    "admin": [
+      { "path": "/admin/dashboard", "permission": "admin.access", "name": "Admin Overview", "nameAr": "لوحة المدير" },
+      { "path": "/admin/users", "permission": "users.read", "name": "User Management", "nameAr": "إدارة المستخدمين" },
+      { "path": "/admin/roles", "permission": "roles.read", "name": "Roles & RBAC", "nameAr": "الأدوار والصلاحيات" },
+      { "path": "/admin/settings", "permission": "settings.read", "name": "System Settings", "nameAr": "إعدادات النظام" },
+      { "path": "/admin/files", "permission": "files.read", "name": "File Storage Vault", "nameAr": "خزينة الملفات" },
+      { "path": "/admin/communications", "permission": "communication.send", "name": "Email & SMS & WhatsApp", "nameAr": "الاتصالات والمراسلات" },
+      { "path": "/admin/paypal", "permission": "finance.read", "name": "PayPal Gateway", "nameAr": "بوابة باي بال" },
+      { "path": "/admin/audit", "permission": "audit.read", "name": "Audit Security Logs", "nameAr": "سجلات التدقيق والأمان" }
+    ],
+    "developer": [
+      { "path": "/dev/dashboard", "permission": "dev.access", "name": "Developer Console", "nameAr": "لوحة فريق التطوير" },
+      { "path": "/dev/projects", "permission": "dev.access", "name": "Projects & Kanban", "nameAr": "المشاريع والمهام" },
+      { "path": "/dev/issues", "permission": "dev.access", "name": "Issue Tracker", "nameAr": "تتبع المشاكل والأعطال" },
+      { "path": "/dev/api-docs", "permission": "dev.access", "name": "OpenAPI / Swagger Docs", "nameAr": "توثيق واجهات API" },
+      { "path": "/dev/database", "permission": "dev.access", "name": "DB Schema & Workbench", "nameAr": "مستكشف قاعدة البيانات" },
+      { "path": "/dev/consistency", "permission": "dev.access", "name": "Architecture Consistency Engine", "nameAr": "محرك فحص الاتساق المعماري" }
+    ],
+    "user": [
+      { "path": "/app/dashboard", "name": "User Portal", "nameAr": "لوحة المستخدم" },
+      { "path": "/app/profile", "name": "My Profile", "nameAr": "الملف الشخصي" },
+      { "path": "/app/notifications", "name": "Notifications", "nameAr": "مركز الإشعارات" },
+      { "path": "/app/files", "name": "My Documents", "nameAr": "ملفاتي ومستنداتي" },
+      { "path": "/app/sessions", "name": "Active Sessions & Devices", "nameAr": "الجلسات والأجهزة" },
+      { "path": "/app/security", "name": "Security & 2FA", "nameAr": "الأمان وكلمة المرور" }
+    ]
+  }
+}

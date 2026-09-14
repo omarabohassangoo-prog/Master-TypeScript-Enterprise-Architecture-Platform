@@ -1,0 +1,63 @@
+openapi: 3.1.0
+info:
+  title: Master Enterprise Architecture API
+  version: 1.0.0
+  description: Full-stack contract-first REST API specification conforming to ISO and OWASP standards.
+paths:
+  /api/v1/auth/login:
+    post:
+      summary: Authenticate User & Issue Session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [username, password]
+              properties:
+                username: { type: string }
+                password: { type: string }
+      responses:
+        '200':
+          description: Login successful with user profile and session token.
+  /api/v1/users:
+    get:
+      summary: Query Users with RBAC filtering
+      responses:
+        '200':
+          description: List of active users.
+    post:
+      summary: Create new system user
+      responses:
+        '201':
+          description: User created.
+  /api/v1/roles:
+    get:
+      summary: Get system roles and assigned permissions
+      responses:
+        '200':
+          description: List of roles.
+  /api/v1/settings:
+    get:
+      summary: Retrieve system and SEO configuration
+      responses:
+        '200':
+          description: Settings list.
+  /api/v1/files:
+    get:
+      summary: List files in secure storage vault
+      responses:
+        '200':
+          description: File record list.
+  /api/v1/communications/send:
+    post:
+      summary: Dispatch Email, SMS, or WhatsApp message via adapter
+      responses:
+        '200':
+          description: Message dispatched and logged.
+  /api/v1/paypal/order:
+    post:
+      summary: Initialize or capture PayPal checkout transaction
+      responses:
+        '200':
+          description: PayPal order processed.

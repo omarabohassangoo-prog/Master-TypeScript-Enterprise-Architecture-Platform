@@ -1,0 +1,17 @@
+{
+  "system": {
+    "name": "Master TypeScript Enterprise Architecture Platform",
+    "nameAr": "المنصة المؤسسية الشاملة لمعمارية تايب سكريبت",
+    "version": "1.0.0",
+    "environment": "production-ready",
+    "defaultLocale": "ar",
+    "supportedLocales": ["ar", "en"],
+    "direction": "rtl",
+    "timezone": "Asia/Riyadh",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "maintenanceMode": false,
+    "supportEmail": "support@enterprise.local",
+    "apiPrefix": "/api/v1"
+  }
+}

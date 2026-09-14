@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "siteTitle": "Master TypeScript Enterprise Architecture Platform",
+    "siteTitleAr": "المنصة المعمارية المؤسسية المتكاملة - TypeScript Full-Stack",
+    "description": "نظام برمجي متكامل متعدد الطبقات بلغة TypeScript مع لوحات تحكم للمدير وفريق التطوير والمستخدمين ونظام صلاحيات RBAC وخدمات الدفع والاتصالات والتخزين",
+    "keywords": ["TypeScript", "Full-Stack", "Architecture", "RBAC", "Express", "React", "PostgreSQL", "Enterprise", "PayPal", "Security"],
+    "canonicalUrl": "https://enterprise-architecture.local",
+    "robots": "index, follow",
+    "openGraph": {
+      "type": "website",
+      "siteName": "TypeScript Master Enterprise",
+      "image": "/og-image.png"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "creator": "@EnterpriseArch"
+    },
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Master TypeScript Enterprise Architecture Platform",
+      "operatingSystem": "All modern browsers / Cloud Run / Linux",
+      "applicationCategory": "BusinessApplication"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "userTypes": [
+    {
+      "key": "super_admin",
+      "name": "Super Administrator",
+      "nameAr": "مدير النظام العام",
+      "defaultRole": "role_super_admin",
+      "homeRoute": "admin_overview"
+    },
+    {
+      "key": "admin",
+      "name": "Administrator",
+      "nameAr": "مدير النظام",
+      "defaultRole": "role_admin",
+      "homeRoute": "admin_overview"
+    },
+    {
+      "key": "developer",
+      "name": "Senior Software Engineer",
+      "nameAr": "مهندس تطوير أول",
+      "defaultRole": "role_developer",
+      "homeRoute": "dev_overview"
+    },
+    {
+      "key": "customer",
+      "name": "Standard User",
+      "nameAr": "مستخدم عادي",
+      "defaultRole": "role_user",
+      "homeRoute": "user_overview"
+    }
+  ]
+}

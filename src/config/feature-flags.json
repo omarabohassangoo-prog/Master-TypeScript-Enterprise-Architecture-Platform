@@ -1,0 +1,12 @@
+{
+  "flags": {
+    "enableWhatsAppIntegration": true,
+    "enableSmsGateway": true,
+    "enablePayPalSandbox": true,
+    "enableAuditLogging": true,
+    "enableFingerprintVerification": true,
+    "enableArchitectureInspector": true,
+    "enableMockFallbackForExternalAPIs": true,
+    "strictRbacEnforcement": true
+  }
+}

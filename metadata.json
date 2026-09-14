@@ -1,0 +1,6 @@
+{
+  "name": "Master TypeScript Enterprise Architecture Platform",
+  "description": "نظام برمجي متكامل متعدد الطبقات بلغة TypeScript مع لوحات تحكم للمدير وفريق التطوير والمستخدمين ونظام صلاحيات RBAC وخدمات الدفع والاتصالات والتخزين",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
