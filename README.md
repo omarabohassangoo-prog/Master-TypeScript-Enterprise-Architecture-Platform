@@ -82,8 +82,8 @@ npm run dev
 
 تتضمن المنظومة 16 وثيقة ومخطط تفاعلي متوفرة في المجلد `/docs`:
 
-- **[🏆 شهادة تقدير وتميز هندسي وتقني للمطور عمر أبو حسان (Certificate of Architectural Excellence)](docs/CERTIFICATE-OF-APPRECIATION.md)**
-- **[📝 رسالة توصية هندسية ومهنية للمهندس عمر أبو حسان (Professional Recommendation Letter)](docs/PROFESSIONAL-RECOMMENDATION.md)**
+- **[🏆 شهادة تقدير وتميز هندسي وتقني للمطور عمر أبو حسن (Certificate of Architectural Excellence)](docs/CERTIFICATE-OF-APPRECIATION.md)**
+- **[📝 رسالة توصية هندسية ومهنية للمهندس عمر أبو حسن (Professional Recommendation Letter)](docs/PROFESSIONAL-RECOMMENDATION.md)**
 - **[وثيقة المستثمرين وتوقعات الأرباح بالدولار والمشاريع المستهدفة (Investor Pitch Deck & Financials)](docs/INVESTOR-PITCH-DECK.md)**
 - **[وثيقة الترخيص وحقوق النشر (Copyright & License Document)](docs/COPYRIGHT-AND-LICENSE.md)**
 - **[وثيقة الشروط والقوانين والامتثال التنظيمي (Legal Compliance, Terms, & Regulations)](docs/LEGAL-COMPLIANCE-RULES.md)**
